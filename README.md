@@ -17,9 +17,10 @@ https://github.com/Bellzylu/FrendDigital-case-isabella/assets/101601962/8b7c7ccd
  ## **Features** 🎪
  You should have seen them all in the screen recording, but to sum it up,
  as a user you can:
- * search for products by name(in the product list), 
+ 
+ * search for products by name(in the product list)
  * add and remove items to your wishlist
- * copy the current url (this means also your saved wishlist).
+ * copy the current url (this means also your saved wishlist)
 You also choose between different currencies (and hope they exist for your product).
    However, NOK always exist so that is your safest bet for now! 
  
@@ -46,8 +47,8 @@ bun dev
 
 *  The currency feature need some better handling of cases where the currency is not available for certain products (perhaps I overlooked something in the API- ready for feedback on this one)
 
-*  The photo displaying "404" when there is no image, is a short cut solution. 
-*  Search works, but one could add more parameters to search by.
+*  The photo displaying "404" when there is no image, is a short cut solution
+*  Search works, but one could add more parameters to search by
 *  Also, sorting between catagories would be nice too! <3 
 *  Not been tested on Android and Edge! ⚠️ 
 *  Better error handling and some nice looking loaders
