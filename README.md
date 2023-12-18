@@ -5,6 +5,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
  This project introduces a nice-to-have wishlist feature, based on a use case for the brand and online tore, byTiMo. The goal with this feature is to make the shopping experience personalized and interactive. 
  Developed using Next.js and CSS Modules, this feature is designed to provide a seamless and user-friendly interface for byTiMo customers. The design is pretty basic and should be improved further. However, the main goal for this project was to use the provided APIs to set up the main functionalities that were planned for the feature ⭐️ First, let's have a sneak peak:
 
+
+https://github.com/Bellzylu/FrendDigital-case-isabella/assets/101601962/8b7c7ccd-9009-4c1b-9318-3cc12bef60a7
+
+
  
 
  ## **Features** 🎪
