@@ -1,0 +1,29 @@
+.headerContainer {
+  display: flex;
+  background-color: white;
+  text-align: center;
+  padding: 24px;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.searchContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

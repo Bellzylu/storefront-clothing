@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+
+.input {
+  /* Reset input styles */
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+
+  box-shadow: 0px 1px 0px 0px rgba(31, 29, 29, 0.354);
+  width: 100%;
+  padding: 0.75rem 0;
+  padding-inline-start: 2.5em;
+  width: 100%;
+}
+
+.heartButton {
+  background: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0.75rem;
+}

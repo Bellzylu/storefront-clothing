@@ -1,0 +1,7 @@
+.root {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  min-width: 30px;
+  padding: 0.5rem 1rem;
+}

@@ -1,13 +1,23 @@
+button {
+  cursor: pointer;
+  border: none;
+}
+
 * {
   box-sizing: border-box;
 }
 
-html, body, div#__next {
+html,
+body,
+div#__next {
   min-height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-div, span {
+div,
+span {
   margin: 0;
   padding: 0;
 }

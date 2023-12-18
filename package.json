@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "svgr": "bunx @svgr/cli --replace-attr-values=#000=currentColor --svgo-config=./svgo.config.cjs --out-dir svgr --ext tsx --typescript -- svgs"
   },
   "dependencies": {
     "@storyless/react": "^0.0.25",
     "next": "14.0.4",
+    "next-usequerystate": "^1.13.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
