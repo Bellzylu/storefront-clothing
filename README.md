@@ -28,15 +28,15 @@ Also, in this app, you can see how the UI component have been tested by clicking
 
 ## Getting Started
 
+Install dependencies
+
+```bash
+bun i
+```
+
 Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
