@@ -3,7 +3,6 @@ import { z } from "zod";
 export const ProductSchema = z
   .object({
     availabe: z.boolean(),
-    id: z.string(), // Todo: check if exists
     brand: z.string(),
     brandName: z.string(),
     categories: z.array(

@@ -9,7 +9,6 @@ import { imagesFromProduct } from "@/functions/imagesFromProduct";
 import styles from "./app.module.css";
 import { ShareButton } from "@/components/ShareButton";
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 export default function Home() {
   const [search, setSearch] = usePersistedQueryState("search");

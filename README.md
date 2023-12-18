@@ -1,8 +1,32 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# 💫 **Wishlist feature for byTiMo** 💫 
+
+ This project introduces a nice-to-have wishlist feature, based on a use case for the brand and online tore, byTiMo. The goal with this feature is to make the shopping experience personalized and interactive. 
+ Developed using Next.js and CSS Modules, this feature is designed to provide a seamless and user-friendly interface for byTiMo customers. The design is pretty basic and should be improved further. However, the main goal for this project was to use the provided APIs to set up the main functionalities that were planned for the feature ⭐️ First, let's have a sneak peak:
+
+ 
+
+ ## **Features** 🎪
+ You should have seen them all in the screen recording, but to sum it up,
+ as a user you can:
+ * search for products by name(in the product list), 
+ * add and remove items to your wishlist
+ * copy the current url (this means also your saved wishlist).
+ You also choose between different currencies (and hope they exist for your product).
+ However, NOK always exist so that is your safest bet for now! 
+ 
+Also, in this app, you can see how the UI component have been tested by clicking on the "Storyless" button.
+
 ## Getting Started
 
-First, run the development server:
+ 1. Clone this repo
+  ```bash
+  git clone <CopiedRepoLink>
+  ```
+  2. Navigate to the project directory
+
+ 2. Run the development server:
 
 ```bash
 npm run dev
@@ -14,27 +38,25 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open your localhost and enjoy!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Incomplete features / Suggestions for further development
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+*  The currency feature need some better handling of cases where the currency is not available for certain products (perhaps I overlooked something in the API- ready for feedback on this one)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+*  The photo displaying "404" when there is no image, is a short cut solution. 
+*  Search works, but one could add more parameters to search by.
+*  Also, sorting between catagories would be nice too! <3 
+*  Not been tested on Android and Edge! ⚠️ 
+*  Better error handling and some nice looking loaders
+*  Design: Place info better (show more info when clicking on a   product or quickview feature), and have slightly more seamless design.. 
 
-## Learn More
+   I added a few comments in the code with "TODO:" , just to remember where I can improve ☠️ 
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
